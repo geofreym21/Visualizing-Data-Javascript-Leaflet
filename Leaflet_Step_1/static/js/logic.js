@@ -27,7 +27,7 @@ d3.json(earthquakesUrl, function(data) {
       }
   }
 
-// Create function to create circular features
+// Circular function features
 function createFeatures(earthquakeData) {
   var earthquakes = L.geoJson(earthquakeData,{
     pointToLayer: function (feature, latlng) {
