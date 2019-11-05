@@ -105,9 +105,5 @@ function createMap(earthquakes) {
   };
   // Add Legend to the Map
   legend.addTo(myMap);
-
-  //Map legend
-  legend.addTo(myMap);
-
-
+  
 }
