@@ -1,4 +1,5 @@
 // geoJSON URL in USGS about earthquakes for the week
+
 var earthquakesUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
 // Perform a GET request to the query URL
